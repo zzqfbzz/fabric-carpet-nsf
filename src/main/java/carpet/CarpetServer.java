@@ -14,6 +14,7 @@ import carpet.commands.LogCommand;
 import carpet.commands.MobAICommand;
 import carpet.commands.PerimeterInfoCommand;
 import carpet.commands.PlayerCommand;
+import carpet.commands.PlayerCommandzh;
 import carpet.commands.ProfileCommand;
 import carpet.script.ScriptCommand;
 import carpet.commands.SpawnCommand;
@@ -126,6 +127,7 @@ public class CarpetServer // static for now - easier to handle all around the co
         LogCommand.register(dispatcher, commandBuildContext);
         SpawnCommand.register(dispatcher, commandBuildContext);
         PlayerCommand.register(dispatcher, commandBuildContext);
+        PlayerCommandzh.register(dispatcher, commandBuildContext);
         InfoCommand.register(dispatcher, commandBuildContext);
         DistanceCommand.register(dispatcher, commandBuildContext);
         PerimeterInfoCommand.register(dispatcher, commandBuildContext);
